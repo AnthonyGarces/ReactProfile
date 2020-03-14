@@ -1,0 +1,1 @@
+The purpose of this app is to make a portfolio for myself using React and Next.js
