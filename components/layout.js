@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import Navbar from './nav';
+import Footer from './footer';
+// import background from '../public/images/light_honeycomb.png';
+//background not loading properly style={{ backgroundImage:`url(${background})`}}
 
 const Layout = (props) => {
     return (
@@ -15,6 +18,7 @@ const Layout = (props) => {
             </Head>
             <Navbar />
             { props.children }
+            <Footer />
         </div>
     )
 };

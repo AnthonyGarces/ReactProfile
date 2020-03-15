@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 
-export default function() {
+export default function AboutMe() {
     return(
         <Container>
             
@@ -29,7 +29,7 @@ export default function() {
                 I'm not going to have time for any of that anytime soon!
                 </p>
                 <a href="https://github.com/AnthonyGarces" target="_blank">
-                    <img src="/images/GitHub_Logo.png" style={{ height: 50, width: 85, padding: 10 }} />
+                    <img src="/images/GitHub_Logo.png" style={{ height: 50, width: 105, padding: 10 }} />
                 </a>
                 <a href="https://www.linkedin.com/in/anthony-garces-122b0a122/" target="_blank">
                     <img src="/images/LI-Logo.png" style={{ height: 50, width: "75x", padding: 10 }}/>
